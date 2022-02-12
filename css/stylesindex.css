@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    outline: none;
+}
+body{
+    background-image: url(../img/bg.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Ubuntu&display=swap');
+
+section{
+    height: 500px;
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+.flex-button > a{
+    border: none;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Open sans';
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.bt1 {
+    background-color: #3EE28A;
+}
+.bt2{
+    background-color: #222222;
+}
+.hidden-logo{
+    opacity: 0;
+}

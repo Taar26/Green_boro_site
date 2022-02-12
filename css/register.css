@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    outline: none;
+}
+body{
+    background-image: url(../img/bg.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Ubuntu&display=swap');
+p{
+    font-family: 'Open sans';
+}
+h1{
+    font-family: 'Open sans';
+}
+a{
+    text-decoration: none;
+}
+
+section{
+    height: 500px;
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.section-textarea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-col-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.textarea-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5px;
+}
+p{
+    color: white;
+}
+input{
+    height: 30px;
+    width: 200px;
+    font-family: 'Open sans';
+    color: white;
+    background-color: rgba(255, 255, 255, 0.486);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.icon-reg{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.icon-reg > img{
+    margin-left: 10px;
+}
+.flex-botton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-reg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3EE28A;
+    border-radius: 10px;
+    height: 40px;
+    width: 500px; 
+}
+.flex-botton > p{
+    font-size: 10px;
+}
